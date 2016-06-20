@@ -25,7 +25,7 @@ for filename in `ls serverdata`; do
    fi
 done
 
-result=`dialog --stdout --checklist "Choose servers to block: " 30 40 $counter $dialogstring`
+result=`dialog --stdout --nocancel --checklist "Choose servers to block: " 30 40 $counter $dialogstring`
 counter=0;
 
 for filename in `ls serverdata`; do
