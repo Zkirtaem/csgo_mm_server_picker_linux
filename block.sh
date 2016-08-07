@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ ! -d "serverdata" ]; then
    ./update-db.sh
 fi
