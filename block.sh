@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -d "serverdata" ]; then
-   ./update-db.sh
+   `dirname $0`/update-db.sh
 fi
 
 counter=0;
